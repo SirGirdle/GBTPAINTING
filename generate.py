@@ -10,6 +10,7 @@ needs no build step.
 """
 import json
 import os
+import re
 
 from build import pages, components as C
 from build.data import BIZ, SERVICES, AREAS, REGION
@@ -26,11 +27,24 @@ def write(path, content):
     return path
 
 
+def relativize(html, url_path):
+    """Rewrite internal root-absolute URLs (="/...") to page-relative paths.
+
+    Makes the built site portable to any base path — a root domain
+    (Cloudflare/host) AND a GitHub Pages project subpath (/repo/) — and to
+    local file:// preview. Full https:// URLs (canonical, OG, JSON-LD) and
+    external schemes (tel:, mailto:, https://) are left untouched.
+    """
+    segs = [s for s in url_path.split("/") if s]
+    prefix = "./" if not segs else "../" * len(segs)
+    return re.sub(r'="/(?!/)', '="' + prefix, html)
+
+
 def write_page(url_path, html):
     """url_path like '/services/x/' -> services/x/index.html ; '/' -> index.html"""
     rel = url_path.strip("/")
     out = "index.html" if rel == "" else os.path.join(rel, "index.html")
-    return write(out, html)
+    return write(out, relativize(html, url_path))
 
 
 def main():
