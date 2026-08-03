@@ -1,0 +1,127 @@
+{
+  "business": "GBT Painting & Decorating",
+  "domain": "https://gbt-painter-decorator.co.uk",
+  "generated_pages": 24,
+  "pages": [
+    {
+      "path": "/",
+      "title": "Home",
+      "group": "core"
+    },
+    {
+      "path": "/essex-painting-decorating-services/",
+      "title": "Areas Covered — Essex",
+      "group": "region"
+    },
+    {
+      "path": "/contact/",
+      "title": "Contact",
+      "group": "core"
+    },
+    {
+      "path": "/testimonials/",
+      "title": "Reviews",
+      "group": "core"
+    },
+    {
+      "path": "/thank-you/",
+      "title": "Thank You",
+      "group": "system"
+    },
+    {
+      "path": "/privacy-policy/",
+      "title": "Privacy Policy",
+      "group": "legal"
+    },
+    {
+      "path": "/terms-of-service/",
+      "title": "Terms of Service",
+      "group": "legal"
+    },
+    {
+      "path": "/services/interior-painting-colchester/",
+      "title": "Interior Painting Colchester",
+      "group": "service"
+    },
+    {
+      "path": "/services/exterior-painting-colchester/",
+      "title": "Exterior Painting Colchester",
+      "group": "service"
+    },
+    {
+      "path": "/services/wallpapering-colchester/",
+      "title": "Wallpaper Hanging Colchester",
+      "group": "service"
+    },
+    {
+      "path": "/services/murals-colchester/",
+      "title": "Murals & Feature Walls Colchester",
+      "group": "service"
+    },
+    {
+      "path": "/services/tiling-colchester/",
+      "title": "Wall & Floor Tiling Colchester",
+      "group": "service"
+    },
+    {
+      "path": "/services/fascias-soffits-gutters-colchester/",
+      "title": "Fascias, Soffits & Gutters Colchester",
+      "group": "service"
+    },
+    {
+      "path": "/services/end-of-tenancy-decorating-colchester/",
+      "title": "End of Tenancy Decorating Colchester",
+      "group": "service"
+    },
+    {
+      "path": "/services/landlord-decorating-colchester/",
+      "title": "Landlord & Rental Decorating Colchester",
+      "group": "service"
+    },
+    {
+      "path": "/areas/painting-decorating-stanway/",
+      "title": "Painting & Decorating Stanway",
+      "group": "area"
+    },
+    {
+      "path": "/areas/painting-decorating-highwoods/",
+      "title": "Painting & Decorating Highwoods",
+      "group": "area"
+    },
+    {
+      "path": "/areas/painting-decorating-wivenhoe/",
+      "title": "Painting & Decorating Wivenhoe",
+      "group": "area"
+    },
+    {
+      "path": "/areas/painting-decorating-west-mersea/",
+      "title": "Painting & Decorating West Mersea",
+      "group": "area"
+    },
+    {
+      "path": "/areas/painting-decorating-east-mersea/",
+      "title": "Painting & Decorating East Mersea",
+      "group": "area"
+    },
+    {
+      "path": "/areas/painting-decorating-west-bergholt/",
+      "title": "Painting & Decorating West Bergholt",
+      "group": "area"
+    },
+    {
+      "path": "/areas/painting-decorating-copford/",
+      "title": "Painting & Decorating Copford",
+      "group": "area"
+    },
+    {
+      "path": "/areas/painting-decorating-tiptree/",
+      "title": "Painting & Decorating Tiptree",
+      "group": "area"
+    },
+    {
+      "path": "/areas/painting-decorating-dedham/",
+      "title": "Painting & Decorating Dedham",
+      "group": "area"
+    }
+  ]
+}

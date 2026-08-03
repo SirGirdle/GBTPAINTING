@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gbt-painter-decorator.co.uk/sitemap.xml
